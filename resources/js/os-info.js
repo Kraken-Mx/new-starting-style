@@ -5,6 +5,8 @@
  * https://nodejs.org/api/os.html
  * 
 */
+
+function infos () {
 //import { platform, release, arch, freemem, totalmem, uptime } from 'node:os' // ES module (.mjs)
 const os = require('node:os') // CommonJS module
 
@@ -22,4 +24,7 @@ console.log('Free memory: ', os.freemem() / 1024 / 1024)
 console.log('Total memory: ', os.totalmem() / 1024 / 1024)
 
 console.log('Uptime: ', os.uptime() / 60 / 60, '(active hours)')
+
+}
+module.exports = {infos}
 

@@ -5,6 +5,10 @@
     <title>Crear Columnas</title>
     <link rel="icon" href="./img/PINIA.jpeg">
     <!--<link href="./resources/css/login.css" rel="stylesheet">-->
+    <script type="module">
+        //const { asyncReadFile } = require('./resources/js/promise.js')
+        //asyncReadFile()
+    </script>
 </head>
 <body>
 
@@ -64,6 +68,6 @@
     </section>
     -->
 </main>
-<script src="./resources/js/columns.js"></script>
+<script src="./resources/js/column.js"></script>
 </body>
 </html>
