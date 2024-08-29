@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Starting Style | Kraken Mx</title>
     <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/@starting-style -->
-    <link rel="icon" type="image/x-icon" href="./assets/img/PINIA.jpeg">
-    <!--<link rel="icon" href="./assets/img/PINIA.jpeg">-->
+    <link rel="icon" type="image/x-icon" href="./assets/img/pinneaples/PINIA.jpeg">
+    <!--<link rel="icon" href="./assets/img/pinneaples/PINIA.jpeg">-->
     <!--<link href="./assets/css/login.css" rel="stylesheet">-->
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -94,7 +94,7 @@
   
   <section class="new1 principal align-items-stretch">
       <div class="principal-superior d-flex flex-column justify-content-center align-items-center">
-          <img class="principal-image" src="./assets/img/PINIA.jpeg" alt="logo-pinia">
+          <img class="principal-image" src="./assets/img/pinneaples/PINIA.jpeg" alt="logo-pinia">
           <h1 class="seccion-titulo">Hola, soy una pinia promedio</h1>
           <h2>Crea columnas divertidas y encuentra una sorpresa !!!</h2>
           <button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>
@@ -166,7 +166,7 @@
           <!--Proyecto 1-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="./assets/img/proyecto1.png" alt="Proyecto 1">
+              <img src="./assets/img/projects_examples/proyecto1.png" alt="Proyecto 1">
               <div class="overlay">
                 <p>Proyecto 1</p>
                 <div class="iconos-contenedor">
@@ -183,7 +183,7 @@
           <!--Proyecto 2-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="./assets/img/proyecto2.png" alt="Proyecto 2">
+              <img src="./assets/img/projects_examples/proyecto2.png" alt="Proyecto 2">
               <div class="overlay">
                 <p>Proyecto 2</p>
                 <div class="iconos-contenedor">
@@ -200,7 +200,7 @@
           <!--Proyecto 3-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="./assets/img/proyecto3.png" alt="Proyecto 3">
+              <img src="./assets/img/projects_examples/proyecto3.png" alt="Proyecto 3">
               <div class="overlay">
                 <p>Proyecto 3</p>
                 <div class="iconos-contenedor">
@@ -217,7 +217,7 @@
           <!--Proyecto 4-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="./assets/img/proyecto4.png" alt="Proyecto 4">
+              <img src="./assets/img/projects_examples/proyecto4.png" alt="Proyecto 4">
               <div class="overlay">
                 <p>Proyecto 4</p>
                 <div class="iconos-contenedor">
@@ -234,7 +234,7 @@
           <!--Proyecto 5-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="./assets/img/proyecto5.png" alt="Proyecto 5">
+              <img src="./assets/img/projects_examples/proyecto5.png" alt="Proyecto 5">
               <div class="overlay">
                 <p>Proyecto 5</p>
                 <div class="iconos-contenedor">
@@ -251,7 +251,7 @@
           <!--Proyecto 6-->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
-              <img src="./assets/img/proyecto6.png" alt="Proyecto 6">
+              <img src="./assets/img/projects_examples/proyecto6.png" alt="Proyecto 6">
               <div class="overlay">
                 <p>Proyecto 6</p>
                 <div class="iconos-contenedor">
@@ -324,7 +324,7 @@
       <img src="./assets/img/pepe_el_pollo.png" alt="logo-3" width="180">
   </div>
   <div class="logo">
-      <img src="./assets/img/pinita.png" alt="logo-3" width="180">
+      <img src="./assets/img/pinneaples/pinita.png" alt="logo-3" width="180">
   </div>
   -->
 </main>
