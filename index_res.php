@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Columnas</title>
-    <link rel="icon" href="./img/PINIA.jpeg">
+    <link rel="icon" href="./img/pinneaples/PINIA.jpeg">
     <!--<link href="./resources/css/login.css" rel="stylesheet">-->
 </head>
 <body>
@@ -11,7 +11,7 @@
 <main id="app" class="flex-shrink-0 my-5">
     <section class="form">
         <div class="logo">
-            <img src="./img/PINIA.jpeg" alt="logo-pinia" width="180">
+            <img src="./img/pinneaples/PINIA.jpeg" alt="logo-pinia" width="180">
         </div>
         <h1 class="title">La pinia</h1>
 
@@ -44,7 +44,7 @@
         <img src="./img/pepe_el_pollo.png" alt="logo-3" width="180">
     </div>
     <div class="logo">
-        <img src="./img/pinita.png" alt="logo-3" width="180">
+        <img src="./assets/img/pinneaples/pinita.png" alt="logo-3" width="180">
     </div>
     
     <!--

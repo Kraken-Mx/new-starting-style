@@ -14,7 +14,7 @@ function randomColor() {
 
 function createColumn() {
   const divElem = document.createElement("div");
-  divElem.className = "principal-superior d-flex flex-column justify-content-center align-items-center new1";
+  divElem.className = "principal-superior d-flex flex-column justify-content-center align-items-center new1"; 
   divElem.style.backgroundColor = randomColor();
 
   const closeBtn = document.createElement("button");
