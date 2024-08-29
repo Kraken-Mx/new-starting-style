@@ -1,73 +1,335 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kraken-Mx">
+    <meta name="description" content="Portafolio de Desarrollo Web">
+    <meta name="keywords" content="Kraken-Mx, HTML, CSS, JavaScript, React">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crear Columnas</title>
-    <link rel="icon" href="./img/PINIA.jpeg">
-    <!--<link href="./resources/css/login.css" rel="stylesheet">-->
+    <title>New Starting Style | Kraken Mx</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/@starting-style -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/PINIA.jpeg">
+    <!--<link rel="icon" href="./assets/img/PINIA.jpeg">-->
+    <!--<link href="./assets/css/login.css" rel="stylesheet">-->
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Bootstrap Icons (bi)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="./assets/css/index.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
     <script type="module">
         //const { asyncReadFile } = require('./resources/js/promise.js')
         //asyncReadFile()
     </script>
 </head>
 <body>
-
-<main>
-    <section class="form">
-        <div class="logo">
-            <img src="./img/PINIA.jpeg" alt="logo-pinia" width="180">
+<main id="app" class="flex-shrink-0">
+  <div class="container4">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+              <img class="rounded-circle" src="./assets/img/imagenes_desarrollador/desarrollador-ejemplo.svg" alt="user" width="50px">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
         </div>
-        <h1 class="title">La pinia</h1>
+      </div>
+    </nav>  
+  </div>
 
-        <p class="description">Ingresa la pinia</p>
-        <label class="form-control__label">Usuario</label>
-        <input type="text" name="user" class="form-control">
-        <label class="form-control__label">Contraseña</label>
-        <div class="password-field">
-            <input type="password" name="password" class="form-control" id="password">
-            <!--
-            <svg id="eye-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" onclick="mostrarPassword()">
-                <line id="eye-open" x1="48" y1="40" x2="208" y2="216" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M154.9,157.6A39.6,39.6,0,0,1,128,168a40,40,0,0,1-26.9-69.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M74,68.6C33.2,89.2,16,128,16,128s32,72,112,72a117.9,117.9,0,0,0,54-12.6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M208.6,169.1C230.4,149.6,240,128,240,128S208,56,128,56a123.9,123.9,0,0,0-20.7,1.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><path d="M135.5,88.7a39.9,39.9,0,0,1,32.3,35.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-                <path id="eye-closed" d="M128,56C48,56,16,128,16,128s32,72,112,72,112-72,112-72S208,56,128,56Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/><circle cx="128" cy="128" r="40" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="12"/>
-            </svg>
-            -->
-        </div>
-        <button type="submit" name="inicioSesion" class="form__submit" id="submit">Iniciar Sesión</button>
-    </section>
+  
+  
+  <!--
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <button id="new_button">Create new column</button>
-    <section id="new_section"></section>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  -->
 
-    <div class="logo">
-        <img src="./img/308789b0337fdf2779c25239cd697c76[1].jpg" alt="logo-2" width="180">
-    </div>
-    <div class="logo">
-        <img src="./img/BLUE.jpeg" alt="logo-3" width="180">
-    </div>
-    <div class="logo">
-        <img src="./img/pepe_el_pollo.png" alt="logo-3" width="180">
-    </div>
-    <div class="logo">
-        <img src="./img/pinita.png" alt="logo-3" width="180">
-    </div>
-    
-    <!--
-    <section class="form__animation">
-        <div id="ball">
-            <div class="ball">
-                <div id="face">
-                    <div class="ball__eyes">
-                        <div class="eye_wrap"><span class="eye"></span></div>
-                        <div class="eye_wrap"><span class="eye"></span></div>
-                    </div>
-                    <div class="ball__mouth"></div>
+  <!--<button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>-->
+  <button id="new_button">Create new column</button>
+  <section id="new_section"></section>
+  
+  <section class="new1 principal align-items-stretch">
+      <div class="principal-superior d-flex flex-column justify-content-center align-items-center">
+          <img class="principal-image" src="./assets/img/PINIA.jpeg" alt="logo-pinia">
+          <h1 class="seccion-titulo">Hola, soy una pinia promedio</h1>
+          <h2>Crea columnas divertidas y encuentra una sorpresa !!!</h2>
+          <button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>
+          <!--<button id="new_button">Create new column</button>-->
+          <section id="new_section"></section>
+      </div>
+      <div class="principal-inferior">
+          <img class="principal-inferior-imagen img-fluid" src="./assets/img/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+  </section>
+
+  <!--Seccion Sobre Mi-->
+  <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+          <h2 class="seccion-titulo">Conoce al desarrollador</h2>
+          <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus bibendum dictum. Cras interdum euismod elit et tincidunt. Duis id ullamcorper urna. Nullam placerat accumsan justo vel consequat. Nullam leo tortor, placerat eget euismod in, venenatis non leo. Maecenas porttitor purus ut neque molestie viverra. Vivamus sollicitudin turpis vel enim sollicitudin, vel pellentesque dui luctus. Morbi leo nibh, viverra ac maximus lobortis, pretium eu velit. Phasellus sagittis ex sit amet aliquet vulputate.</p>
+      </div>
+  </section>
+
+  <!--Seccion Experiencia-->
+  <section class="experiencia seccion-clara">
+      <div class="container text-center">
+          <div class="row">
+              <!--Desarrollo Web-->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Desarrollo Web</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus bibendum dictum. Cras interdum euismod elit et tincidunt. Duis id ullamcorper urna.</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">HTML</span>
+                  <span class="badge text-bg-primary">CSS</span>
+                  <span class="badge text-bg-primary">JavaScript</span>
+                  <span class="badge text-bg-primary">React</span>
                 </div>
+              </div>
+              <!--Articulos-->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Artículos</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus bibendum dictum. Cras interdum euismod elit et tincidunt. Duis id ullamcorper urna.</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">Escribir</span>
+                  <span class="badge text-bg-primary">Editar</span>
+                  <span class="badge text-bg-primary">Blogs</span>
+                </div>
+              </div>
+              <!--Estudiante-->
+              <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">Estudiante</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus bibendum dictum. Cras interdum euismod elit et tincidunt. Duis id ullamcorper urna.</p>
+                <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">freeCodeCamp</span>
+                  <span class="badge text-bg-primary">Desarrollo Web</span>
+                  <span class="badge text-bg-primary">Python</span>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!--Seccion Proyectos-->
+  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos Recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!--Galeria de Proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyecto 1-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
             </div>
+          </div>
+          <!--Proyecto 2-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/proyecto2.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 3-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/proyecto3.png" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 4-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/proyecto4.png" alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 5-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/proyecto5.png" alt="Proyecto 5">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 6-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./assets/img/proyecto6.png" alt="Proyecto 6">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="ball__shadow"></div>
-    </section>
-    -->
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver Más Proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+  </section>
+
+  <!--Seccion  Articulos-->
+  <section class="articulos" justify-content-start>
+    <h2 class="seccion-titulo texto-negro">Artículos</h2>
+    <div class="card">
+      <div class="card-header">
+        Más Recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">¿Para qué se usa Python? 10+ usos del lenguaje de programación Python</li>
+        </a>
+      </ul>
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver Más Proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+
+    <button type="button" class="btn btn-info">
+      Ver Más Articulos
+    </button>
+
+  </section>
+
+  <!--
+  <div class="logo">
+      <img src="./assets/img/308789b0337fdf2779c25239cd697c76[1].jpg" alt="logo-2" width="180">
+  </div>
+  <div class="logo">
+      <img src="./assets/img/BLUE.jpeg" alt="logo-3" width="180">
+  </div>
+  <div class="logo">
+      <img src="./assets/img/pepe_el_pollo.png" alt="logo-3" width="180">
+  </div>
+  <div class="logo">
+      <img src="./assets/img/pinita.png" alt="logo-3" width="180">
+  </div>
+  -->
 </main>
 <script src="./resources/js/column.js"></script>
+<!--Bootstrap Javascript-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
