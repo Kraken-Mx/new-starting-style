@@ -27,67 +27,8 @@
 </head>
 <body>
 <main id="app" class="flex-shrink-0">
-  <div class="container4">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-              <img class="rounded-circle" src="./assets/img/imagenes_desarrollador/desarrollador-ejemplo.svg" alt="user" width="50px">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>  
-  </div>
-
+  <?php include './resources/partials/header-menu.php' ?>
   
-  
-  <!--
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor01">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-      </ul>
-      <form class="form-inline">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-  -->
-
   <!--<button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>-->
   <button id="new_button">Create new column</button>
   <section id="new_section"></section>
