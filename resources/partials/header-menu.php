@@ -52,11 +52,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
             </a>
             <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <?php foreach ($menus as $menu) {
-                /*$header = '<li class="nav-item"><a class="nav-link" href="' . $menu['href'] . '">' . $menu['label'] . '</a></li>';
-                echo $header;*/
-
-                $active_class = ($current_page === basename($menu['href'])) ? 'active text-info bg-dark' : '';
-                echo '<li class="nav-item"><a class="nav-link ' . $active_class . '" href="' . $menu['href'] . '">' . $menu['label'] . '</a></li>';
+                $active_class = ($current_page === basename($menu['href'])) ? 'active text-info bg-dark border border-info' : '';
+                echo '<li class="nav-item"><a class="nav-link rounded ' . $active_class . '" href="' . $menu['href'] . '">' . $menu['label'] . '</a></li>';
 
             }?>
             </ul>
