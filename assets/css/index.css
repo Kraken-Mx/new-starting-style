@@ -31,7 +31,7 @@ h1 {
 
 /* principal section */
 .principal {
-  background-color: #f5f6f7;
+  background-color: var(--light-bg-color);
   min-height: 450px;
   text-align: center;
 }
@@ -48,7 +48,7 @@ h1 {
 
 .principal-superior h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: var(--bs-orange);
 }
 
 /* about me section */
@@ -141,7 +141,7 @@ h1 {
 
 .seccion-descripcion {
   font-size: 1.2rem;
-  color: #584e4e;
+  color: var(--bs-purple);
 }
 
 .proyectos-recientes img {
