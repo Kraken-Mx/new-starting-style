@@ -1,5 +1,6 @@
 @import './color.css';
 @import './starting-style.css';
+@import './create-colors.css';
 section {
   display: flex;
   flex-direction: column;
@@ -38,6 +39,10 @@ h1 {
 
 .principal-superior {
   padding: 3rem;
+}
+
+.principal-color{
+  padding: 2.5rem;
 }
 
 .principal-image {
