@@ -13,7 +13,7 @@ h1 {
 }*/
 
 .container4{
-  background-image: url("../img/pinneaples/piñas_fondo_05.png");
+  background-image: url("../img/pineapples/piñas_fondo_05.png");
   background-repeat: repeat-x;
   /*background-size: 100% 100%;*/
 }
@@ -44,6 +44,22 @@ h1 {
   width: 200px;
   height: 200px;
   margin: 20px;
+}
+/*
+.real-pineapple {
+  width: 700px;
+  height: 373px;
+  margin: 5px;
+}*/
+
+.logo-starting {
+  width: 319px;
+  height: 55px;
+  margin: 20px;
+}
+
+.link1 {
+  margin-top: 2rem;
 }
 
 .principal-superior h2 {
