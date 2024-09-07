@@ -28,7 +28,7 @@
 </head>
 <body>
 <main id="app" class="flex-shrink-0">
-    <?php include '../partials/header-menu.php' ?>
+  <?php include '../partials/header-menu.php' ?>
 
   <!--
   <div class="container4">
@@ -72,37 +72,6 @@
   <section id="new_section"></section>
   
   <section class="new1 principal align-items-stretch">
-      <div>
-      <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-      </div>
       <div class="principal-superior d-flex flex-column justify-content-center align-items-center">
           <img class="principal-image" src="../../assets/img/pineapples/PINIA.jpeg" alt="logo-pinia">
           <h1 class="seccion-titulo">Sección 'Generador de colores'</h1>
@@ -164,6 +133,163 @@
               </div>
           </div>
       </div>
+  </section>
+
+  <!--Seccion Proyectos-->
+  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos Recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!--Galeria de Proyectos-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyecto 1-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="../../assets/img/projects_examples/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 2-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="../../assets/img/projects_examples/proyecto2.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 3-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="../../assets/img/projects_examples/proyecto3.png" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 4-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="../../assets/img/projects_examples/proyecto4.png" alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 5-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="../../assets/img/projects_examples/proyecto5.png" alt="Proyecto 5">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyecto 6-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="../../assets/img/projects_examples/proyecto6.png" alt="Proyecto 6">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver Más Proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+  </section>
+
+  <!--Seccion  Articulos-->
+  <section class="articulos" justify-content-start>
+    <h2 class="seccion-titulo texto-negro">Artículos</h2>
+    <div class="card">
+      <div class="card-header">
+        Más Recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">El decorador @property en Python - cómo usarlo, ventajas y sintaxis</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas</li>
+        </a>
+        <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">¿Para qué se usa Python? 10+ usos del lenguaje de programación Python</li>
+        </a>
+      </ul>
+    </div>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver Más Proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+
+    <button type="button" class="btn btn-info">
+      Ver Más Articulos
+    </button>
+
   </section>
 
   <!--

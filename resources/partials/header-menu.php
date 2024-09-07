@@ -9,8 +9,8 @@ $menus = [
         'label' => 'Random color generator'
     ],
     [
-        'href' => '../views/pinneapple.php',
-        'label' => 'Pinneapple surprise'
+        'href' => '../views/pineapple.php',
+        'label' => 'Pineapple surprise'
     ]
 ];
 $current_page = basename($_SERVER['PHP_SELF']);
