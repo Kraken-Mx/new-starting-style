@@ -34,7 +34,7 @@
 }
 
 .new1 div > button {
-  font-size: 1.6rem;
+  /*font-size: 1.6rem;*/
   background: none;
   border: 0;
   text-shadow: 2px 1px 1px white;

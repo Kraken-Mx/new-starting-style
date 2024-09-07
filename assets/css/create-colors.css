@@ -1,0 +1,47 @@
+.new2 td {
+    flex: 1;
+    border: 1px solid gray;
+    position: relative;
+    background: linear-gradient(
+      to right,
+      rgb(255 255 255 / 0%),
+      rgb(255 255 255 / 50%)
+    );
+    opacity: 1;
+    scale: 1 1;
+  
+    transition:
+      opacity 3s,
+      scale 3s,
+      display 3s allow-discrete,
+      all 3s allow-discrete;
+    /* Equivalent to
+    transition: all 0.7s allow-discrete; */
+  }
+  
+  /* Include after the `td` rule */
+  @starting-style {
+    .new2 td {
+      opacity: 0;
+      scale: 1 0;
+    }
+  }
+  
+  .new2 .fade-out {
+    opacity: 0;
+    display: none;
+    scale: 1 0;
+  }
+  
+  .new2 td > button {
+    font-size: 1.6rem;
+    background: none;
+    border: 0;
+    text-shadow: 2px 1px 1px white;
+    border-radius: 15px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+  }
+  
