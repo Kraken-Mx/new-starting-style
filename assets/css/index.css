@@ -47,15 +47,8 @@ h1 {
 
 .principal-image {
   width: 200px;
-  height: 200px;
   margin: 20px;
 }
-/*
-.real-pineapple {
-  width: 700px;
-  height: 373px;
-  margin: 5px;
-}*/
 
 .logo-starting {
   width: 319px;
@@ -105,7 +98,7 @@ h1 {
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: var(--light-bg-color);
 }
 
 .experiencia-titulo {
@@ -133,6 +126,9 @@ h1 {
 }
 
 .experiencia .columna {
+  background-image: url("../img/pineapples/PINIA.jpeg");
+  width: 200px;
+
   padding: 20px;
   border: 2px solid #8080804d;
   display: flex;
@@ -143,8 +139,9 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  background-image: url("../img/pineapples/evil_pineapple.png");
+  width: 200px;
+  /*color: white;*/
 }
 
 /* projects section */
