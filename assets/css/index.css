@@ -44,11 +44,12 @@ h1 {
 }
 
 .principal-evil {
-  background-image: url("../img/pineapples/pinita.png");
+  background-image: url("../img/pineapples/pinita_cut.png");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #000000;
   padding: 3rem;
+  background-size: auto;
 }
 
 .principal-color{
@@ -101,9 +102,13 @@ h1 {
   font-size: 1.2rem;
 }
 
-/* experience section */
+/* evil section */
 .evil {
-  padding: 40px 40px 60px 40px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 4.3rem;
 }
 
 .seccion-clara {
@@ -135,22 +140,6 @@ h1 {
   margin: 5px;
 }
 
-.evil {
-  max-width: 100%;
-  height: auto;
-  /*border-radius: 50%;*/
-  /*width: 300px;*/
-  /*transition: all 0.2s ease-in;*/
-}
-
-.evilado:hover {
-  display: none;
-  /*background-color: var(--bs-purple);*/
-  /*background-image: url("../img/pineapples/evil_pineapple.png");*/
-  /*width: 300px;*/
-  /*color: white;*/
-}
-
 /* projects section */
 .proyectos-recientes {
   padding: 40px;
@@ -167,6 +156,9 @@ h1 {
 .seccion-descripcion {
   font-size: 1.2rem;
   color: var(--bs-purple);
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 .proyectos-recientes img {

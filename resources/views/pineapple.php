@@ -31,9 +31,9 @@
   <?php include '../partials/header-menu.php' ?>
   
   <section class="pine principal-evil align-items-stretch">
+    <p class="seccion-descripcion">🍍👻🍍👻🍍 don't be afraid! 🍍👻🍍👻🍍</p>  
     <div class="d-flex flex-column justify-content-center align-items-center">
-      <p class="seccion-descripcion">🍍👻🍍👻🍍 don't be afraid! 🍍👻🍍👻🍍</p>  
-      <img class="evil img-fluid" src="../../assets/img/pineapples/evil_pine.png" alt="logo-pinia">
+        <img class="evil img-fluid" src="../../assets/img/pineapples/evil_pine2.png" alt="logo-pinia">
     </div>
   </section>
   
