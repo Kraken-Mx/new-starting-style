@@ -1,3 +1,10 @@
+/*
+ *
+ * @starting-style
+ * New CSS at-rule
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/@starting-style
+ * 
+*/
 .new1 div {
   flex: 1;
   border: 1px solid gray;
