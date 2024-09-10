@@ -1,6 +1,8 @@
 @import './color.css';
 @import './starting-style.css';
 @import './create-colors.css';
+@import './evil-style.css';
+
 section {
   display: flex;
   flex-direction: column;
@@ -38,6 +40,14 @@ h1 {
 }
 
 .principal-superior {
+  padding: 3rem;
+}
+
+.principal-evil {
+  background-image: url("../img/pineapples/pinita.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #000000;
   padding: 3rem;
 }
 
@@ -92,7 +102,7 @@ h1 {
 }
 
 /* experience section */
-.experiencia {
+.evil {
   padding: 40px 40px 60px 40px;
 }
 
@@ -101,13 +111,13 @@ h1 {
   background-color: var(--light-bg-color);
 }
 
-.experiencia-titulo {
+.evil-titulo {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.experiencia i {
+.evil i {
   font-size: 2.5rem;
   color: #7ade30;
   background-color: #0a0a23;
@@ -125,22 +135,19 @@ h1 {
   margin: 5px;
 }
 
-.experiencia .columna {
-  background-image: url("../img/pineapples/PINIA.jpeg");
-  width: 200px;
-
-  padding: 20px;
-  border: 2px solid #8080804d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  transition: all 0.2s ease-in;
+.evil {
+  max-width: 100%;
+  height: auto;
+  /*border-radius: 50%;*/
+  /*width: 300px;*/
+  /*transition: all 0.2s ease-in;*/
 }
 
-.experiencia .columna:hover {
-  background-image: url("../img/pineapples/evil_pineapple.png");
-  width: 200px;
+.evilado:hover {
+  display: none;
+  /*background-color: var(--bs-purple);*/
+  /*background-image: url("../img/pineapples/evil_pineapple.png");*/
+  /*width: 300px;*/
   /*color: white;*/
 }
 

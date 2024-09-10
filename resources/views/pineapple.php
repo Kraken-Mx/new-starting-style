@@ -30,8 +30,15 @@
 <main id="app" class="flex-shrink-0">
   <?php include '../partials/header-menu.php' ?>
   
+  <section class="pine principal-evil align-items-stretch">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <p class="seccion-descripcion">🍍👻🍍👻🍍 don't be afraid! 🍍👻🍍👻🍍</p>  
+      <img class="evil img-fluid" src="../../assets/img/pineapples/evil_pine.png" alt="logo-pinia">
+    </div>
+  </section>
+  
   <!--
-  <section class="new1 principal align-items-stretch">
+  <section class="pine principal align-items-stretch">
       <div class="principal-superior d-flex flex-column justify-content-center align-items-center">
           <img class="principal-image" src="../../assets/img/pineapples/PINIA.jpeg" alt="logo-pinia">
           <h1 class="seccion-titulo">Sección 'Generador de colores'</h1>
@@ -39,18 +46,6 @@
           <button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>
       </div>
   </section>-->
-
-  <!--Seccion Experiencia-->
-  <section class="new1 experiencia seccion-clara">
-      <div class="container text-center">
-        <!--Desarrollo Web-->
-        <div class="columna col-12">
-          <i class="bi bi-laptop"></i>
-          <p class="experiencia-titulo">Desarrollo Web</p>
-        </div>
-      </div>
-  </section>
-
 </main>
 <!--<script src="./resources/js/column.js"></script>-->
 <!--Bootstrap Javascript-->
