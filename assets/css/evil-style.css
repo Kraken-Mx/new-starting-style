@@ -1,0 +1,47 @@
+.pine div {
+    flex: 1;
+    border: 1px solid gray;
+    position: relative;
+    /*background: linear-gradient(
+      to right,
+      rgb(255 255 255 / 0%),
+      rgb(255 255 255 / 50%)
+    );*/
+    opacity: 1;
+    scale: 1 1;
+  
+    transition:
+      opacity 10s,
+      scale 10s,
+      display 10s allow-discrete,
+      all 10s allow-discrete;
+    /* Equivalent to
+    transition: all 0.7s allow-discrete; */
+  }
+  
+  /* Include after the `div` rule */
+  @starting-style {
+    .pine div {
+      opacity: 0;
+      scale: 1 0;
+    }
+  }
+  
+  .pine .fade-out {
+    opacity: 0;
+    display: none;
+    scale: 1 0;
+  }
+  
+  .pine div > button {
+    /*font-size: 1.6rem;*/
+    background: none;
+    border: 0;
+    text-shadow: 2px 1px 1px white;
+    border-radius: 15px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    cursor: pointer;
+  }
+  
