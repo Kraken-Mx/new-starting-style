@@ -107,8 +107,8 @@ h1 {
   max-width: 100%;
   height: auto;
   border: 1px solid #ddd;
-  border-radius: 4px;
-  margin-bottom: 4.3rem;
+  /*border-radius: 4px;*/
+  margin-bottom: 4.8rem;
 }
 
 .seccion-clara {

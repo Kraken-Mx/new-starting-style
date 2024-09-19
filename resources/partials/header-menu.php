@@ -43,7 +43,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <div class="container4">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler text-info bg-dark border border-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
