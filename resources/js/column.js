@@ -34,7 +34,6 @@ function createColor() {
   else if (colorTwo.getElementsByClassName("new2").length < 10) {colorTwo.append(td);}
 
   //colorOne.append(td);
-
   //console.log(colorOne.getElementsByClassName("new2").length);
 
   closeBtn.addEventListener("click", () => {
@@ -53,7 +52,7 @@ function createColumn() {
 
   const closeBtn = document.createElement("button");
   closeBtn.className = "new1";
-  closeBtn.textContent = "✖";
+  closeBtn.textContent = "❌";
   closeBtn.setAttribute("aria-label", "close");
   divElem.append(closeBtn);
   sectionElem.append(divElem);

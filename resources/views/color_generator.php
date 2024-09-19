@@ -29,50 +29,65 @@
 <body>
 <main id="app" class="flex-shrink-0">
   <?php include '../partials/header-menu.php' ?>
-
-  <!--
-  <button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>
-  <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-  
-  <button id="new_button">Create new column</button>
-  <section id="new_section"></section>
-  -->
   
   <section class="new1 principal align-items-stretch">
-      <div class="principal-superior d-flex flex-column justify-content-center align-items-center pt-5">
-        <table class="new2 table table-bordered table-dark">
-          <thead>
-            <tr>
-              <th scope="col" colspan="2"><button class="rounded text-light bg-dark border border-light" id="new_color">Create New Color</button></th>
-              <!--
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>-->
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th id="row_one" scope="row"></th>
-            </tr>
-            <tr>
-              <th id="row_two" scope="row"></th>
-            </tr>
-          </tbody>
-        </table>
+    <!-- EJEMPLO PARA USAR CLASS="ROW" EN VEZ DE UNA TABLA
+    <div class="card-body">
+      <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+              <label for="fecha_inicial" class="col-form-label text-start">Fecha inicial</label>
+              <input class="form-control" type="date" v-model="form.fecha_inicial" required>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+              <label for="fecha_final" class="col-form-label text-start">Fecha final</label>
+              <input class="form-control" type="date" v-model="form.fecha_final" required>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+              <label for="idUser" class="form-label">Usuario</label>
+              <select class="form-select" name="idUser" id="idUser" v-model="form.user" required>
+                  <option value="">Selecciona una opción...</option>
+                  <option v-for="(user, index) in users" :key="index" :value="user.ID_USUARIO">{{user.NOMBRE_USUARIO}}
+                  </option>
+              </select>
+          </div>
       </div>
-      <div class="principal-superior d-flex flex-column justify-content-center align-items-center">
-          <img class="principal-image" src="../../assets/img/pineapples/PINIA.jpeg" alt="logo-pinia">
-          <h1 class="seccion-titulo">Sección 'Generador de colores'</h1>
-          <h2>Crea !!!</h2>
-          <button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new column</button>
-          <!--<button id="new_button">Create new column</button>-->
-          <section id="new_section"></section>
+      <div class="row mt-2">
+          <div class="mb-3 row">
+              <div class="col-sm" style="text-align: right;">
+                  <button type="button" name="clean" id="clean" class="btn btn-danger me-2" onclick="cleanFilter()">Limpiar Filtros</button>
+                  <button type="button" name="filtra" id="filtra" class="btn btn-success me-2" onclick="filtrarLista()">Filtrar</button>
+              </div>
+          </div>
       </div>
-      <!--
-      <div class="principal-inferior">
-          <img class="principal-inferior-imagen img-fluid" src="../../assets/img/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
-      </div>
-      -->
+    </div>
+    -->
+    <div class="table-responsive">
+      <table class="new2 table table-bordered table-dark">
+        <thead>
+          <tr>
+            <th scope="col" colspan="2"><button class="rounded text-light bg-dark border border-light" id="new_color">Create New Color</button></th>
+            <!--
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>-->
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th id="row_one" scope="row"></th>
+          </tr>
+          <tr>
+            <th id="row_two" scope="row"></th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="principal-superior d-flex flex-column justify-content-center align-items-center">
+        <img class="principal-image" src="../../assets/img/pineapples/PINIA.jpeg" alt="logo-pinia">
+        <h1 class="seccion-titulo">Sección 'Generador de colores'</h1>
+        <h2>Crea !!! <button class="btn btn-outline-info my-2 my-sm-0" id="new_button">Create new row</button></h2>
+        <section class="mt-3" id="new_section"></section>
+    </div>
   </section>
 </main>
 <script src="../js/column.js"></script>
